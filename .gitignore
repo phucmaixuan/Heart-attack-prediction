@@ -1,0 +1,44 @@
+# ===== Python / venv =====
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== Jupyter outputs (nếu không dùng nbstripout) =====
+# (giữ notebook nhưng tránh cache rác)
+*.checkpoint.ipynb
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Data =====
+# Không đẩy dataset gốc & file sinh ra nặng
+DATA/*.csv
+!DATA/selected_columns.csv         # giữ lại file cột đã chọn (nhỏ, cần cho train)
+!DATA/sample_*.csv                 # cho phép commit các file sample nhỏ (tuỳ chọn)
+
+# ===== Models =====
+# Không đẩy mô hình đã train (nặng)
+MODELS/*.pkl
+MODELS/*.joblib
+
+# ===== Report =====
+# Nếu muốn repo gọn, chặn file Office nặng:
+REPORT/*.pdf
+REPORT/*.docx
+REPORT/*.pptx
+
+# ===== Logs / tmp =====
+*.log
+*.tmp
+*.bak
+
+# ===== Results / Artifacts =====
+results/
+outputs/
