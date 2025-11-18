@@ -227,9 +227,9 @@ F1 = 2 × (Precision × Recall) / (Precision + Recall)
 
 | Thành viên | Vai trò | Nhiệm vụ |
 |------------|---------|----------|
-| **Member A** | Data Engineer | Preprocessing, Feature Selection |
-| **Member B** | ML Engineer | Train & Tune models (SVM, NB, RF, KNN, ANN) |
-| **Member C** | Analyst/Reporter | Evaluation, Visualization, Report, Slides |
+| **Trần Đăng Khoa** | Data Engineer | Preprocessing, Feature Selection |
+| **Hồ Tuấn Linh** | ML Engineer | Train & Tune models (SVM, NB, RF, KNN, ANN) |
+| **Mai Xuân Phúc** | Analyst/Reporter | Evaluation, Visualization, Report, Slides |
 
 ---
 
@@ -312,19 +312,13 @@ python -m notebook
 - [Imbalanced-learn](https://imbalanced-learn.org/)
 - [BRFSS Dataset Info](https://www.cdc.gov/brfss/)
 
----
 
-## 📧 Liên hệ
-
-- **Leader:** [Tên] - [Email]
-- **Member A:** [Tên] - [Email]
-- **Member B:** [Tên] - [Email]
-- **Member C:** [Tên] - [Email]
 
 ---
 
-**🎓 Trường:** [Tên trường]  
+**🎓 Trường:** [Đại học Bách Khoa - ĐHQG TPHCM]  
 **📖 Môn học:** Khai phá dữ liệu / Data Mining  
-**👨‍🏫 Giảng viên:** [Tên GV]  
+**👨‍🏫 Giảng viên:** [Đỗ Thanh Thái]  
 **📅 Học kỳ:** [HK1/2024-2025]
+
 
